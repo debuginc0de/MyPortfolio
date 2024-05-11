@@ -2,160 +2,159 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Rahul_web_Developer" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
-    <link href=' https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css ' rel='stylesheet '>
-    <title>Document</title>
-
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/8b60d7b84f.js" crossorigin="anonymous"></script>
+  <title>Rahul Das</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header class="header">
-        <a href="#" class="logo">Rahul's.portfolio</a>
-        <i class='bx bx-menu' id="menu-btn"></i>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <div class="left">Rahul's Portfolio</div>
-        </nav>
-    </header>
-    <section class="home" id="home">
-        <div class="home-bio">
-            <h3>Hi, My name is </h3>
-            <h1>Rahul Das</h1>
-            <h3>I am a </h3>
+  <section class="header">
+    <div class="content">
+      <p class="greeting">Hello! I am</p>
+      <h2 class="name">Rahul Das</h2>
+      <h3 class="description">Web Developer,Problem Solver</h3>
+      <p class="intro">
+        I am an aspiring Java Developer and a Competitive
+        Programmer
+      </p>
+      <div class="buttons-div">
+        <a href="#contact"><button class="contact_btn">CONTACT ME</button></a>
+        <a href="https://drive.google.com/file/d/1ZvL4faDda7ziQ7yo54fbkAv3dCU1V0DL/view?usp=sharing"><button class="contact_btn">MY RESUME</button></a>
+      </div>
+    </div>
+  </section>
 
-            <span id="element"></span>
-            <p>Welcome to my Portfolio Website
-            </p>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/rahuldas04/"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://twitter.com/debuginc0de"><i class='bx bxl-twitter'></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100050157346903"><i class='bx bxl-facebook'></i></a>
-                <a href="https://www.instagram.com/debuginc0de/"><i class='bx bxl-instagram'></i></a>
-            </div>
-            <a href="#contact" class="btn">Let's talk</a>
-
-        </div>
-        <div class="profile-pic">
-            <img src="image.webp " alt="">
-        </div>
-    </section>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <main>
     
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Java Developer'],
-            typeSpeed: 50,
-        });
-    </script>
-</body>
-<section class="about" id="about">
-    <div class="heading">
-        <h2>About <span>Me</span></h2>
+    <section class="about">
+      
+      <h1 class="edu_header">ABOUT ME</h1>
+      <p class="about">
+        Hello, I am <span>Rahul Das</span>, a third-year
+        undergraduate student in <span>Electronic and Communication Engineering</span> at
+        <span>RCC Institute Of Information Technology</span>,
+        Kolkata.
+      </p>
+      <p class="about">
+        I am currently looking for a job in the IT industry and I am comfortable working both independently and in teams. Connect with me to know more about me.
+      </p>
+    </section>
+
+    <!--EDUCATION-->
+    <section class="education">
+      <h1 class="edu_header">EDUCATION</h1>
+      <div class="edu_wrapper">
+        <div class="edu_cards">
+          <p class="degree">B.Tech</p>
+          <span class="type">Electronic and Communication Engineering</span>
+          <p class="grade">CGPA: <span>7.94(Till 5th sem)</span></p>
+          <p class="edu_name">
+            RCC Institute Of Information Technology
+          </p>
+          <p class="time">September 2021 - Present</p>
+        </div>
+
+        <div class="edu_cards card_green">
+          <p class="degree">Class XII</p>
+          <span class="type">W.B.C.H.S.E</span>
+          <p class="grade">Percentage: <span>85%</span></p>
+          <p class="edu_name">Koshigram Union Institution(H.S)</p>
+          <p class="time">2019-2021</p>
+        </div>
+
+        <div class="edu_cards">
+          <p class="degree">Class X</p>
+          <span class="type">W.B.B.S.E</span>
+          <p class="grade">Percentage: <span>74%</span></p>
+          <p class="edu_name">Koshigram Union Institution(H.S)</p>
+          <p class="time">2013-2019</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h1 class="edu_header">PROJECTS</h1>
+
+      <div class="edu_wrapper">
+        <div class="edu_cards blue">
+          <header class="projects_header">
+            
+            <a href="https://github.com/debuginc0de/Temperature_converter"><i class="fab fa-github"></i></i></a>
+          </header>
+          <h3 class="projects_name">TEMPERATURE CONVERTER APP</h3>
+          <p class="projects_description">
+            A temperature converter GUI that allows users to input a temperature value in one
+            unit, such as Celsius, Fahrenheit, or Kelvin, and then convert it to another unit based on a predefined conversion formula</p>
+          <footer class="projects_footer">
+            <span>JAVA</span>
+            <span>ECLIPSE</span>
+          </footer>
+        </div>
+
+        <div class="edu_cards purple">
+          <header class="projects_header">
+            
+            <a href="https://github.com/debuginc0de/CHAT-APP-USING-PYTHON-SOCKETS"><i class="fab fa-github"></i></a>
+          </header>
+          <h3 class="projects_name">CHAT App</h3>
+          <p class="projects_description">
+            The main application of this project is to get a chat application between servers and clients . Also it shows
+          which client sends which messages,just like a normal chat application between the server and multiple clients
+          </p>
+          <footer class="projects_footer">
+            <span>PYTHON</span>
+            
+          </footer>
+        </div>
+
+        <div class="edu_cards dark">
+          <header class="projects_header">
+            <i class="fas fa-id-badge"></i>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </header>
+          <h3 class="projects_name">Personal Portfolio Website</h3>
+          <p class="projects_description">
+            A Personal portfolio website that shows details about my
+            education, projects and my contacts in one place.
+          </p>
+          <footer class="projects_footer">
+            <span>HTML</span>
+            <span>CSS</span>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact bottom" id="contact">
+     
+      <h1>Get in Touch</h1>
+
+      <p class="contact_email">Email</p>
+      <h1>
+        <a href="mailto:rd09536@gmail.com">rd09536@gmail.com</a>
+      </h1>
+
+      <p class="contact_email">Phone</p>
+      <h1><a>(+91) 6297043948</a></h1>
+    </section>
+
+    <div class="logos">
+        <a class="logo_links" href="https://www.linkedin.com/in/rahuldas04/"><i class="fab fa-linkedin"></i></a>
+        <a class="logo_links" href="https://www.facebook.com/profile.php?id=100050157346903&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
     </div>
-    <div class="about-items">
-        <div class="about-resume">
-            <h3>Front-End Web Developer</h3>
-            <a href="resume.pdf" class="btn">Download Resume</a>
-        </div>
-        <div class="about-text">
-            <p>Hello I'm Rahul Das and I am from Katwa a town situated in the Purba Bardhaman district<br><br> Now, I am pursuing my bachelor's degree in Electronics & Communication Engineering from <b>RCC Institute of Infotmation Technology</b> and currently looking
-                for a job in the IT industry and I am comfortable working both independently and in teams.
-            </p>
-        </div>
+
+  </main>
+
+  <footer class="bottom">
+    <div class="footer">
+      <p>Made with <span class="heart">❤️</span> by Rahul Das</p>
+      <p><i class="fas fa-copyright"></i>2024</p>
     </div>
-</section>
-<section class="skills" id="skills">
-    <div class="heading">
-        <h2>My<span> Skills</span></h2>
-
-    </div>
-    <div class="skills-items">
-        <div class="skill-card">
-            <i class='bx bxl-html5'></i>
-            <h3>HTML</h3>
-            
-        </div>
-
-        <div class="skill-card">
-            <i class='bx bxl-css3'></i>
-            <h3>CSS</h3>
-            
-        </div>
-
-
-        <div class="skill-card">
-            <i class='bx bxl-javascript'></i>
-            <h3>JavaScript</h3>
-            
-        </div>
-
-        <div class="skill-card">
-            <i class='bx bxl-java'></i>
-            <h3>Java</h3>
-            
-        </div>
-        <div class="skill-card">
-            <i class='bx bxl-sql'></i>
-            <h3>SQL</h3>
-            
-        </div>
-        <div class="skill-card">
-            <i class='bx bxl-c'></i>
-            <h3>C</h3>
-            
-        </div>
-
-    </div>
-</section>
-<section class="projects" id="projects">
-    <div id="projects">
-        <div class="container">
-            <h1 class="sub-title">My Projects</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="game.jpg">
-                    <div class="layer">
-                        <h3>Number Number-Guessing-Game in Java</h3>
-                        <p>In this article, i am going to construct Project program named Number Guessing Game in which the user will be provided a range and the user have to guess a number in a limited number of attempts</p>
-                        <a href="https://github.com/debuginc0de/Number-Guessing-Game.git"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="port.png">
-                    <div class="layer">
-                        <h3>My Personal Portfolio</h3>
-                        <p>This is a portfolio website is a unique way to showcase my work and let others know about myself. It’s like an evergreen platform for my projects, case studies, and information about me.
-                        </p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div><br><br><br><br><br><br>`
-    <hr />
-</section>
-<section class="contact" id="contact">
-    <div class="heading">
-        <h2>Contact <span>Me</span></h2>
-    </div>
-    <form action="#" class="form">
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Your Email">
-        <textarea name="" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
-        <input type="submit" class="btn" value="send Message">
-    </form>
-</section>
-<footer class="footer">
-    <hr>
-    <p>rahulportfolio.com|All rights Reserved</p>
 </footer>
+</body>
+
+</html>
